@@ -146,23 +146,27 @@ Scanner sc = new Scanner(System.in);
 		
 		// TASK 9 Write a java program to find the second largest number in the array?
 		
-		int[][] arr = {{55, 43, 23, 51, 68, 53, 31, 56, 21}, {56, 12, 53, 53, 12, 53, 12, 67, 88}};
-		int maxNum = 0;
-		int maxNum2 = 0;
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr[i].length; j++) {
-				if(arr[i][j] > maxNum2) {
-					maxNum2 = arr[i][j];
-					if (maxNum2 < maxNum) {
-						maxNum = maxNum2;
-					}
-					
-				}
-			}
-			System.out.println();
-		}
-		
-		System.out.println("2nd Max number of given array is: " + maxNum2);
+//		int[][] arr = {{55, 43, 23, 51, 68, 53, 31, 56, 21}, {56, 12, 53, 53, 12, 53, 12, 67, 88}};
+//		int maxNum = 0;
+//		int maxNum2 = 0;
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 0; j < arr[i].length; j++) {
+//				if(maxNum < arr[i][j]) {
+//					maxNum2 = maxNum;
+//					maxNum = arr[i][j];
+//				}
+//				else if (maxNum2 < arr[i][j]) {
+//					maxNum2 = arr[i][j];
+//				}
+//				
+//				
+//				
+//			}
+//			
+//			System.out.println();
+//		}
+//		
+//		System.out.println("2nd Max number of given array is: " + maxNum2);
 	}
 
 }
