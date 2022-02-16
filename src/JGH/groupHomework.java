@@ -11,7 +11,7 @@ Scanner sc = new Scanner(System.in);
 //		int k = sc.nextInt();
 //		int i = 0;
 //		int sum = 0;
-//		int[] nums = new int [k+1];
+//		int[] nums = new int [k];
 //	
 //		for (i = 0; i < k; i++) {
 //			
@@ -53,6 +53,7 @@ Scanner sc = new Scanner(System.in);
 		// TASK 4 Create a 2D array of integers. Develop a program which will calculate the sum of  even and odd numbers for that array.
 		
 //		int[][] arr = {{55, 43, 23, 51, 68, 53, 31, 56, 21}, {56, 12, 53, 53, 12, 53, 12, 67, 88}};
+//		
 //		int sumEven = 0;
 //		int sumOdd = 0;
 //		
@@ -69,7 +70,7 @@ Scanner sc = new Scanner(System.in);
 //			}
 //		System.out.println("Sum of even numbers: " + sumEven);
 //		System.out.println("Sum of odd numbers: " + sumOdd);	
-		
+//		
 		// TASK 5 Write a program to swap 2 numbers without a temporary variable?
 		
 //		System.out.println("Input first number: ");
@@ -111,9 +112,9 @@ Scanner sc = new Scanner(System.in);
 		
 //		System.out.println("First 10 numbers of Fibonacci series: ");
 //
-//		int j = 1; // 1
-//		int k = 0; // 1
-//		int l = 0; // 1
+//		int j = 1; 
+//		int k = 0; 
+//		int l = 0; 
 //		
 //		System.out.println(k + " ");
 //		System.out.println(j + " ");
@@ -131,6 +132,7 @@ Scanner sc = new Scanner(System.in);
 		
 //		int[][] arr = {{55, 43, 23, 51, 68, 53, 31, 56, 21}, {56, 12, 53, 53, 12, 53, 12, 67, 88}};
 //		int maxNum = 0;
+//		int minNum =0;
 //		
 //		for (int i = 0; i < arr.length; i++) {
 //			for (int j = 0; j < arr[i].length; j++) {
@@ -142,31 +144,31 @@ Scanner sc = new Scanner(System.in);
 //		}
 //		
 //		System.out.println("Max number of given array is: " + maxNum);
-//		
+		
 		
 		// TASK 9 Write a java program to find the second largest number in the array?
 		
-//		int[][] arr = {{55, 43, 23, 51, 68, 53, 31, 56, 21}, {56, 12, 53, 53, 12, 53, 12, 67, 88}};
-//		int maxNum = 0;
-//		int maxNum2 = 0;
-//		for (int i = 0; i < arr.length; i++) {
-//			for (int j = 0; j < arr[i].length; j++) {
-//				if(maxNum < arr[i][j]) {
-//					maxNum2 = maxNum;
-//					maxNum = arr[i][j];
-//				}
-//				else if (maxNum2 < arr[i][j]) {
-//					maxNum2 = arr[i][j];
-//				}
-//				
-//				
-//				
-//			}
-//			
-//			System.out.println();
-//		}
-//		
-//		System.out.println("2nd Max number of given array is: " + maxNum2);
+		int[][] arr = {{55, 43, 23, 51, 68, 53, 31, 56, 21}, {56, 12, 53, 53, 12, 53, 12, 67, 88}};
+		int maxNum = 0;
+		int maxNum2 = 0;
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				if(maxNum < arr[i][j]) {
+					maxNum2 = maxNum;
+					maxNum = arr[i][j];
+				}
+				else if (maxNum2 < arr[i][j]) {
+					maxNum2 = arr[i][j];
+				}
+				
+				
+				
+			}
+			
+			System.out.println();
+		}
+		
+		System.out.println("2nd Max number of given array is: " + maxNum2);
 	}
 
 }
